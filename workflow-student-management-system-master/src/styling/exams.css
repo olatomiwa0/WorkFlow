@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+.add-exam{
+    background-color: #1c8ef9;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Lato', sans-serif;
+    padding: 4px 4px 4px 4px;
+    font-size: 16px;
+    border: none;
+    width: 150px;
+    white-space: nowrap;
+    display: inline-block;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    position: absolute;
+    top: 70px;
+    left: 180px;
+}
+.add-exam:hover{
+    background-color: #1cbaf9;
+    color: white;
+}
+
+.add-exam:active{
+    transform: scale(0.95);
+}
+
+.exams h1{
+    color: white;
+    position: absolute;
+    top: 5px;
+}
+
+.modal{
+    border: none;
+}
+
+.header{
+    background-color: #1c8ef9;
+}
+.title{
+    font-family: 'Lato', sans-serif;
+}
+
+.closeModal{
+    background-color: red;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Lato', sans-serif;
+    padding: 4px 4px 4px 4px;
+    font-size: 16px;
+    border: none;
+    width: 75px;
+    white-space: nowrap;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+.closeModal:hover{
+    background-color: lightcoral;
+    color: white;
+}
+
+.closeModal:active{
+    transform: scale(0.95);
+}
+
+.saveExam{
+    background-color: #1c8ef9;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Lato', sans-serif;
+    padding: 4px 4px 4px 4px;
+    font-size: 16px;
+    border: none;
+    width: 75px;
+    white-space: nowrap;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+.saveExam:hover{
+    background-color: #1cbaf9;
+    color: white;
+}
+.saveExam:active{
+    transform: scale(0.95);
+}
+
+.form{
+    font-family: 'Lato', sans-serif;
+}
+.moduleDescription{
+    width: 100%;
+    height: 60px;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.termSelector{
+    width: 195px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 0 0 8px 0;
+}
+
+.moduleCredits{
+    width: 15%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 0 200px 8px 0;
+}
+.moduleCreditsLabel{
+    margin-right: 218px;
+}
+
+.location{
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 0 0 8px 0;
+}
+
+.lecturerName{
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 0 0 8px 0;
+}
+
+.moduleName{
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 0 0 8px 0;
+}
+
+.moduleCode{
+    width: 45%;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 0 158px 8px 0;
+}
+
+.moduleCodeLabel{
+    margin-right: 270px;
+}
